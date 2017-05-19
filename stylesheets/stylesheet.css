@@ -130,8 +130,18 @@ a.btn {
 }
 
 .tagline ul li img {
-  height: 100px;
+  height: 60px;
   padding: 0px 10px;
+}
+
+.tagline ul li:first-child img {
+  height: 45px;
+  padding-bottom: 12px;
+  filter: brightness(0) invert(1);
+}
+
+#event-location img {
+  height: 100px;
 }
 
 .speaker ul li img {
